@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YourStartup — AI-Driven Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: #111827;
+      --border: #1f2937;
+      --text: #f3f4f6;
+      --text-muted: #9ca3af;
+      --accent: #3b82f6;
+      --accent-hover: #2563eb;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 0 1.5rem;
+    }
+    header {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-weight: 700;
+      font-size: 1.25rem;
+      letter-spacing: -0.5px;
+    }
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-size: 0.95rem;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover {
+      color: var(--text);
+    }
+    .hero {
+      max-width: 800px;
+      margin: 5rem auto;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      background: rgba(59, 130, 246, 0.1);
+      color: var(--accent);
+      border: 1px solid rgba(59, 130, 246, 0.2);
+      margin-bottom: 1.5rem;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: -1px;
+      line-height: 1.15;
+      margin-bottom: 1.25rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+    }
+    .cta-btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      padding: 0.85rem 1.75rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.2s;
+    }
+    .cta-btn:hover {
+      background: var(--accent-hover);
+    }
+    .features {
+      max-width: 1100px;
+      margin: 6rem auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      padding: 2rem;
+      border-radius: 12px;
+    }
+    .card h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.75rem;
+    }
+    .card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+    footer {
+      max-width: 1100px;
+      margin: 4rem auto 2rem;
+      text-align: center;
+      border-top: 1px solid var(--border);
+      padding-top: 2rem;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">YourStartup</div>
+    <nav class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <span class="badge">Next-Gen Intelligent Workflows</span>
+      <h1>Empowering modern teams with intelligent automation</h1>
+      <p>We build production-ready AI systems that streamline complex pipelines and drive scalable performance.</p>
+      <a href="#contact" class="cta-btn">Join Early Access</a>
+    </section>
+
+    <section id="features" class="features">
+      <div class="card">
+        <h3>Autonomous Workflows</h3>
+        <p>Integrate cutting-edge LLMs directly into your data pipelines for end-to-end execution without manual bottlenecks.</p>
+      </div>
+      <div class="card">
+        <h3>Real-Time Insights</h3>
+        <p>Surface high-conviction decisions with instant contextual awareness and low-latency response models.</p>
+      </div>
+      <div class="card">
+        <h3>Enterprise Security</h3>
+        <p>Built with granular access controls, data sovereignty, and robust privacy compliance from day one.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p>&copy; 2026 YourStartup. All rights reserved. Contact: contact@yourstartup.com</p>
+  </footer>
+
+</body>
+</html>
